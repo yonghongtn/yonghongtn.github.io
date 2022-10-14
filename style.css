@@ -1,34 +1,46 @@
-#main-image{
-    border-radius: 50%;
-    max-height: 400px;
-    max-width: 400px;       
+body {
+  overflow-x: hidden;
 }
 
-td:hover{
-    background-color: lightgrey;
+#main-image {
+  border-radius: 50%;
+  max-height: 400px;
+  max-width: 400px;
 }
 
-nav{
-    background-color: lightgrey;
+#about-me {
+  padding: 20px;
 }
 
-#hidden-horse{
-    color:white;
+td:hover {
+  background-color: lightgrey;
 }
 
-#hidden-horse:hover{
-    color:black;
-    background-color: yellow;
+nav {
+  background-color: lightgrey;
 }
 
-.carousel-image{
-    max-width: 50%;
-    height: auto;
-    margin:auto;
+#hidden-horse {
+  background: #eee;
+  color: #eee;
 }
 
-.travel-image{
-    max-height:265px; 
-    width:auto;
+#hidden-horse:hover {
+  color: black;
+  background-color: yellow;
 }
 
+.carousel-image {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.travel-image {
+  max-height: 265px;
+  width: auto;
+}
