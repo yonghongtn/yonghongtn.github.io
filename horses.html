@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Horses</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><h2>James Tan</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="timetable.html">My Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="travels.html">My Travels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="food.html">Food I Like</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="horses.html">Horses</a>
+              </li>
+          </div>
+        </div>
+    </nav>
+
+    <p class="display-1 text-center">Neigh?????</p>
+    <p class="text-center">Somehow I just like horses. Don't ask me why, but I find them really beautiful!</p>
+
+    <div class="my-3 d-flex flex-row justify-content-center">
+      <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/black-friesian-horse-running-in-field-lubos-chlubny.jpg" alt="Horse" style="border:5px dotted brown; padding:5px">
+    </div>
+    
+    <p class="text-center">
+      See a horse grazing video and enjoy the ASMR! Pops out in a new dialog box!
+    </p>
+    <div class="my-3 d-flex flex-row justify-content-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#youtube_modal1">
+        See a horse video!
+      </button>
+    </div>
+
+    
+    <div class="modal" id="youtube_modal1" style="width:600px">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                  <h4 class="modal-title">Horse Grazing</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
+              </div>
+              
+              <!-- Modal body -->
+              <div class="modal-body mx-auto">
+                  <iframe id="iframe_1" width="450" height="260" src="https://www.youtube.com/embed/Y7R3yLMbp24" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+                                                      
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+    <div class="container-fluid bg-secondary text-white mt-6 text-center">
+      (C) James Tan 2022. All rights reserved.
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script>
+      const YOUTUBE_API_KEY = 'AIzaSyCGjfmLDJ98j-ZJYt-HOnvMJYoKjUaAHT8';
+
+    </script>
+</body>
+</html>
