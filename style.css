@@ -8,6 +8,10 @@ body {
   max-width: 400px;
 }
 
+#about-me {
+  padding: 20px;
+}
+
 td:hover {
   background-color: lightgrey;
 }
