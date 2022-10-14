@@ -1,0 +1,34 @@
+#main-image{
+    border-radius: 50%;
+    max-height: 400px;
+    max-width: 400px;       
+}
+
+td:hover{
+    background-color: lightgrey;
+}
+
+nav{
+    background-color: lightgrey;
+}
+
+#hidden-horse{
+    color:white;
+}
+
+#hidden-horse:hover{
+    color:black;
+    background-color: yellow;
+}
+
+.carousel-image{
+    max-width: 50%;
+    height: auto;
+    margin:auto;
+}
+
+.travel-image{
+    max-height:265px; 
+    width:auto;
+}
+
