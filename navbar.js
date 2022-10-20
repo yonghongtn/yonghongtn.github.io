@@ -30,6 +30,7 @@ navbar.component("navbar",
           <li class="nav-item">
             <a class="nav-link" href="horses.html">Horses</a>
           </li>
+        </ul>
       </div>
     </div>
   </nav>
